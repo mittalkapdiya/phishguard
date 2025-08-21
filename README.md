@@ -1,3 +1,19 @@
+🛡️ PhishGuard
+
+AI-powered phishing protection for emails and websites
+Chrome/Edge extension + FastAPI backend 🚀
+
+✨ Features
+
+🔍 AI email scanner → Detects phishing language (urgent requests, suspicious links).
+
+🌐 URL risk analysis → Flags suspicious domains, fake login pages, shady TLDs.
+
+⚠️ Inline warnings → Highlights dangerous links directly on webpages.
+
+📊 Explainable results → Shows why something is suspicious (keywords, domain patterns).
+
+💻 Simple setup → Local backend + browser extension, works offline-friendly.
 
 # PhishGuard — AI Phishing Protection (Demo)
 
@@ -28,3 +44,19 @@ API endpoints:
 - This is a demo. Do not send sensitive emails to third-party servers.
 - Tighten CORS, add authentication (e.g., signed tokens), rate limiting, and logging.
 - Consider an **on-device model** for privacy, and use cloud checks only for high-risk cases.
+
+🔮 Roadmap
+
+✅ Basic phishing detection (MVP)
+
+🔜 Google Safe Browsing & VirusTotal integration
+
+🔜 Admin dashboard with logs & alerts
+
+🔜 On-device ML model for full privacy
+
+📜 License
+
+This project is licensed under the MIT License
+
+💡 Built as a demo project to explore AI + Cybersecurity.
